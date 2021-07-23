@@ -1,0 +1,33 @@
+.wrapRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.rowBody {
+    border: silver solid 2px;
+    width: 200px;
+    height: 90px;
+    
+}
+
+.rowButton{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+
+.buttonRow{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(48, 127, 245);
+}
+
+.edit{
+    margin-bottom: 5px;
+}
+img{
+    width:170px;
+    height: 85px;
+}

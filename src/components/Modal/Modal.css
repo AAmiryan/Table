@@ -1,0 +1,19 @@
+.addImg{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #007bff;
+    text-align: center;
+    vertical-align:center ;
+    color: wheat;
+}
+
+.addImgFile{
+    opacity: 0;
+    margin-left: -105px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+}
+    

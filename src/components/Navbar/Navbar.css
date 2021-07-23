@@ -1,0 +1,16 @@
+.customNavbar {
+  height: 50px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customNavbar div a {
+  margin-right: 20px;
+  color: wheat;
+  text-decoration: none;
+}
+
+.signUpLogIn{
+    display: flex;
+}

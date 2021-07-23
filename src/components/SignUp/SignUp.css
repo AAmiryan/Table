@@ -1,0 +1,43 @@
+.wrapContainer{
+    margin: 0 auto;
+    height: 70vh;
+}
+
+.signUpContainer{
+    width: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    border: 10px double skyblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.inputSignUp{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(5, 121, 167) !important ;
+}
+
+.inputSignUpError{
+    margin-top: 15px;
+    border-bottom: 1px solid red !important ;
+}
+
+input{
+    border: none !important;
+    outline: none;
+}
+
+.sing_up_btn{
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: rgb(2, 119, 165);
+    color: wheat;
+}
+
+.errorMassage{
+    color: red;
+    font-size: 16px;
+}
