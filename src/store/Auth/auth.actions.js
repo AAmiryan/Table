@@ -1,4 +1,4 @@
-// import { isRegisteredAction } from "../actions/dateaction";
+import { isRegisteredAction } from "../actions/dateaction";
 
 const signUp = (user, cb) => {
   localStorage.setItem("user", JSON.stringify(user));
@@ -23,7 +23,7 @@ const login = (userData, history, dispatch) => {
     alert("Please enter correct password and email address");
   }
   localStorage.setItem("isRegistered", JSON.stringify(true));
-  // dispatch(isRegisteredAction(true))
+  dispatch(isRegisteredAction(true))
 };
 
 export { signUp, login };

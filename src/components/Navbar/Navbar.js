@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return(
         <div className="customNavbar">
-          {!isRegistered ? (
+          {isRegistered ? (
             <div onClick={handleLogOut}>
               <NavLink to="/">Log Out </NavLink>
             </div>
